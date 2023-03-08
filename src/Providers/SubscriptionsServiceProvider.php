@@ -47,7 +47,7 @@ class SubscriptionsServiceProvider extends ServiceProvider
         ]);
 
         // Register console commands
-        $this->registerCommands($this->commands);
+        $this->commands($this->commands);
     }
 
     /**
